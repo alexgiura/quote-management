@@ -1,0 +1,33 @@
+# Binaries for programs and executables
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go environment and modules
+/go.sum
+/go.mod
+/bin/
+/pkg/
+vendor/
+
+# Docker and build files
+Dockerfile
+docker-compose.yml
+.env
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# System files
+.DS_Store
+Thumbs.db

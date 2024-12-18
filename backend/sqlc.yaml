@@ -1,0 +1,10 @@
+version: "2"
+sql:
+  - engine: "postgresql"
+    queries: "internal/sql/"
+    schema: "../db/init_scripts"
+    gen:
+      go:
+        sql_package: "pgx/v4"
+        package: "sqlc"  # This will match the folder name
+        out: "internal/sqlc"      # Generated files go here
