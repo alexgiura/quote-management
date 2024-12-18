@@ -1,6 +1,8 @@
 
 Follow these steps to set up the project:
+
 1.Open the "backend" folder and run the following command:
+
 docker compose up -d --build
 
 2. Use postman to send a POST request to: http://localhost:8080/api/quotes
